@@ -10,7 +10,7 @@ jobs:
         with:
           operation: 'update'
           classpath: 'changelogs'
-          changeLogFile: 'changelog.postgresql.sql'
+          changeLogFile: 'myChangelog.xml'
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           url: ${{ secrets.URL }}
